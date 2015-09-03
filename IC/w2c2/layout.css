@@ -1,0 +1,30 @@
+header {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+aside {
+    float: left;
+    width: 19%;
+    border-left: 1px solid black;
+}
+
+main {
+    margin-left: 20%;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+nav, footer {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+footer {
+    text-align: center;
+}
+
+aside, nav, main, footer {
+    padding: 0.2em;
+}
