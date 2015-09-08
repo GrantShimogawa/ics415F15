@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Forms</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="layout.css">
+</head>
+<body>
+
+<div class="container">
+
+    <header><h2 class="text-center">Grant's Cool Website</h2></header>
+    <nav>
+        <ul class="nav nav-pills">
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="forms.html">Forms</a></li>
+        </ul>
+    </nav>
+
+    <div class="row">
+
+        <aside class="col-lg-2">
+            <strong>Forms Summary</strong>
+            <p>HTML supports forms.</p>
+            <p>HTML supports different types of input.</p>
+        </aside>
+
+        <main class="col-lg-10">
+
+            <strong>Forms Page</strong>
+
+            <form action="forms.html" method="post">
+                Username:<br/>
+                <input type="text" name="username"><br/>
+                Password:<br/>
+                <input type="password" name="password"><br/>
+                <input type="radio" name="species" value="native">Native<br/>
+                <input type="radio" name="species" value="introduced">Introduced<br/>
+                <input type="checkbox" name="belongings" value="keys">Keys<br/>
+                <input type="checkbox" name="belongings" value="wallet">Wallet<br/>
+                <input type="checkbox" name="belongings" value="phone">Phone<br/>
+                <input type="color" name="usercolor"><br/>
+                <input type="submit" value="Submit">
+            </form>
+
+        </main>
+
+    </div>
+
+    <footer class="text-center">Copyright (C) Grant Shimogawa</footer>
+
+</div>
+
+</body>
+</html>
