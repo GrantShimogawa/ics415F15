@@ -13,6 +13,12 @@
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
 
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
@@ -24,20 +30,58 @@
 
     <!-- Nav tabs -->
     <ul class="nav nav-tabs" role="tablist">
-        <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
-        <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
-        <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
-        <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+        <li role="presentation" class="active"><a href="#buttons" aria-controls="home" role="tab" data-toggle="tab">Buttons</a></li>
+        <li role="presentation"><a href="#forms" aria-controls="profile" role="tab" data-toggle="tab">Forms</a></li>
+        <li role="presentation"><a href="#images" aria-controls="messages" role="tab" data-toggle="tab">Images</a></li>
     </ul>
 
     <!-- Tab panes -->
     <div class="tab-content">
-        <div role="tabpanel" class="tab-pane active" id="home">Home</div>
-        <div role="tabpanel" class="tab-pane" id="profile">Profile</div>
-        <div role="tabpanel" class="tab-pane" id="messages">Messages</div>
-        <div role="tabpanel" class="tab-pane" id="settings">Settings</div>
+
+        <div role="tabpanel" class="tab-pane active" id="buttons">
+            <label>Transportation Method:</label><br>
+            <div class="btn-toolbar">
+                <div class="btn-group">
+                    <button class="btn btn-default"><i class="fa fa-subway"></i></button>
+                </div>
+                <div class="btn-group">
+                    <button class="btn btn-default"><i class="fa fa-car"></i></button>
+                    <button class="btn btn-default"><i class="fa fa-bus"></i></button>
+                </div>
+                <div class="btn-group">
+                    <button class="btn btn-default"><i class="fa fa-plane"></i></button>
+                    <button class="btn btn-default"><i class="fa fa-fighter-jet"></i></button>
+                </div>
+            </div>
+        </div>
+
+        <div role="tabpanel" class="tab-pane" id="forms">
+            <label>Forms:</label><br>
+            <form>
+
+                <div class="form-group">
+                    <div class="input-group">
+                        <span class="input-group-addon">Username</span>
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="input-group">
+                        <span class="input-group-addon">E-mail</span>
+                        <input type="email" class="form-control">
+                    </div>
+                </div>
+
+            </form>
+        </div>
+
+        <div role="tabpanel" class="tab-pane" id="images">
+            Images
+        </div>
+
     </div>
 
 </div>
+
 </body>
 </html>
